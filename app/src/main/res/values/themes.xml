@@ -1,0 +1,8 @@
+<resources>
+    <style name="Theme.HydroTracker" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.HydroTracker.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/ic_launcher_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.HydroTracker</item>
+    </style>
+</resources>
